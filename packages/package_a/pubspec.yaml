@@ -1,6 +1,6 @@
 name: package_a
 description: "A new Flutter package project."
-version: 0.0.2
+version: 0.0.4
 homepage: https://www.baidu.com
 repository: https://github.com/coder-cjl/FlutterMonoRepo.git
 
