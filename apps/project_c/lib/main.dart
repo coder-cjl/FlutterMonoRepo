@@ -75,6 +75,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
     LZPerson2 person2 = LZPerson2('LZ2', 19);
     person2.sayHello();
+
+    LZPerson3 person3 = LZPerson3('LZ3', 20);
+    person3.sayHello();
   }
 
   @override

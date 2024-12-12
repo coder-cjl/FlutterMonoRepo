@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:package_a/package_a.dart';
 
 void main() {
   runApp(const MyApp());
@@ -66,6 +67,11 @@ class _MyHomePageState extends State<MyHomePage> {
       // called again, and so nothing would appear to happen.
       _counter++;
     });
+  }
+
+  void testPackage() {
+    LZPerson3 person = LZPerson3('John', 30);
+    person.sayHello();
   }
 
   @override
