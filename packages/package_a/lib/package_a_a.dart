@@ -1,4 +1,4 @@
-library package_a;
+library package_a_a;
 
 import 'package:flutter/foundation.dart';
 

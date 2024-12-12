@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:lc_base_core/lc_base_core.dart';
-import 'package:package_a/package_a.dart';
+import 'package:package_a/package_a_a.dart';
 
 void main() {
   runApp(const MyApp());
