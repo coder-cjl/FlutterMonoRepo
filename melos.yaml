@@ -40,6 +40,8 @@ scripts:
 
 commands:
   publish: false
+  version:
+    linkToCommits: true
 
 workspaces:
   ignore:

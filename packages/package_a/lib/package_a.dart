@@ -43,3 +43,15 @@ class LZPerson3 {
     }
   }
 }
+
+class LZPerson5 {
+  String name;
+  int age;
+  LZPerson5(this.name, this.age);
+
+  void sayHello() {
+    if (kDebugMode) {
+      print('Hello, my name is $name, I am $age years old.');
+    }
+  }
+}
