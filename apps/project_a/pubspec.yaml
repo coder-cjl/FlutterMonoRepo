@@ -24,8 +24,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   lc_base_core:
     path: ../../packages/lc_base_core
-  package_a:
-    path: ../../packages/package_a
+  package_a_a:
+    path: ../../packages/package_a_a
 
 dev_dependencies:
   flutter_test:
