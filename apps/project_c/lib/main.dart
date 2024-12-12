@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:package_a/package_a.dart';
 
 void main() {
   runApp(const MyApp());
@@ -69,7 +70,11 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void testPackage() {
-    // LZPerson person = LZPerson('LZ', 18);
+    LZPerson person = LZPerson('LZ', 18);
+    person.sayHello();
+
+    LZPerson2 person2 = LZPerson2('LZ2', 19);
+    person2.sayHello();
   }
 
   @override
