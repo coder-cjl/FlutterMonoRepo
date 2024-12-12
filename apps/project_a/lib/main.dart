@@ -75,6 +75,9 @@ class _MyHomePageState extends State<MyHomePage> {
   void testPackage() {
     LZPerson person = LZPerson('Alice', 30);
     person.sayHello();
+
+    LZPerson2 person2 = LZPerson2('Bob', 25);
+    person2.sayHello();
   }
 
   void testDio() async {

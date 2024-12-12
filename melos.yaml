@@ -1,4 +1,5 @@
 name: FlutterMonoRepo
+repository: https://github.com/coder-cjl/FlutterMonoRepo.git
 
 packages:
   - packages/*
@@ -28,6 +29,9 @@ scripts:
     cd apps/project_b
     flutter pub get
     flutter run -d 1744CF97-5853-48FD-8C23-F7876ACC92E7
+
+  melos_publish: |
+    melos publish
 
 commands:
   publish: false
