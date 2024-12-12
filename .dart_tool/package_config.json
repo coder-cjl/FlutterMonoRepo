@@ -296,13 +296,13 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "FlutterMonoRepo",
+      "name": "flutter_mono_repo",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-12-12T07:50:50.943411Z",
+  "generated": "2024-12-12T09:15:58.299552Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }

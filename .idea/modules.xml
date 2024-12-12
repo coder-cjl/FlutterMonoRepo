@@ -9,7 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/apps/project_a/melos_project_a.iml" filepath="$PROJECT_DIR$/apps/project_a/melos_project_a.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/project_b/melos_project_b.iml" filepath="$PROJECT_DIR$/apps/project_b/melos_project_b.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/project_c/melos_project_c.iml" filepath="$PROJECT_DIR$/apps/project_c/melos_project_c.iml" />
-      <module fileurl="file://$PROJECT_DIR$/melos_fluttermonorepo.iml" filepath="$PROJECT_DIR$/melos_fluttermonorepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_flutter_mono_repo.iml" filepath="$PROJECT_DIR$/melos_flutter_mono_repo.iml" />
     </modules>
   </component>
 </project>
