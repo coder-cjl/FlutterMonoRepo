@@ -1,0 +1,37 @@
+name: FlutterMonoRepo
+
+packages:
+  - packages/*
+  - apps/*
+
+
+scripts:
+  analyze:
+    exec: dart analyze .
+
+  bootstrap: |
+    melos clean
+    melos bootstrap
+
+  test: |
+    melos run test
+
+  flutter_pub_get: |
+    flutter pub get
+
+  run_app_a: |
+    cd apps/project_a
+    flutter pub get
+    flutter run -d 1744CF97-5853-48FD-8C23-F7876ACC92E7
+
+  run_app_b: |
+    cd apps/project_b
+    flutter pub get
+    flutter run -d 1744CF97-5853-48FD-8C23-F7876ACC92E7
+
+commands:
+  publish: false
+
+workspaces:
+  ignore:
+    - "**/build/**"
