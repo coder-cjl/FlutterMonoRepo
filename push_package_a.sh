@@ -1,0 +1,1 @@
+melos run run_publish_package_a
