@@ -131,13 +131,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
-  package_a:
+  package_a_a:
     dependency: "direct main"
     description:
-      path: "../../packages/package_a"
-      relative: true
-    source: path
-    version: "0.0.4"
+      name: package_a_a
+      sha256: "99e3e23b511a8b0218ddd9a85b8a1796b4c3f4bb5d7fed0b418f132e43390b76"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.5"
   path:
     dependency: transitive
     description:
@@ -217,3 +218,4 @@ packages:
     version: "13.0.0"
 sdks:
   dart: ">=3.3.4 <4.0.0"
+  flutter: ">=1.17.0"
