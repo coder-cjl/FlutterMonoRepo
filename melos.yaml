@@ -39,7 +39,7 @@ scripts:
     melos publish
 
 commands:
-  publish: false
+  publish: true
   version:
     linkToCommits: true
 
