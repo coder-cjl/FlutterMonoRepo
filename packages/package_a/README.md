@@ -1,4 +1,7 @@
 ## Version History
+### 0.0.5
+* Person
+
 ### 0.0.4
 #### Description
 This is a test package
