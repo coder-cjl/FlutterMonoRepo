@@ -1,6 +1,6 @@
 name: package_a_a
 description: "this is a flutter package, try to use melos"
-version: 0.0.7
+version: 0.0.6
 homepage: https://www.baidu.com
 repository: https://github.com/coder-cjl/FlutterMonoRepo.git
 #publish_to: "https://pub.dev"
