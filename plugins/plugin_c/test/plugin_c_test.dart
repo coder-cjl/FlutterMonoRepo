@@ -1,28 +1,29 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:plugin_c/plugin_c.dart';
-import 'package:plugin_c/plugin_c_method_channel.dart';
 import 'package:plugin_c/plugin_c_platform_interface.dart';
+import 'package:plugin_c/plugin_c_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-class MockPluginCPlatform
+class MockPlugin_cPlatform
     with MockPlatformInterfaceMixin
-    implements PluginCPlatform {
+    implements Plugin_cPlatform {
+
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
 }
 
 void main() {
-  final PluginCPlatform initialPlatform = PluginCPlatform.instance;
+  final Plugin_cPlatform initialPlatform = Plugin_cPlatform.instance;
 
-  test('$MethodChannelPluginC is the default instance', () {
-    expect(initialPlatform, isInstanceOf<MethodChannelPluginC>());
+  test('$MethodChannelPlugin_c is the default instance', () {
+    expect(initialPlatform, isInstanceOf<MethodChannelPlugin_c>());
   });
 
   test('getPlatformVersion', () async {
-    PluginC pluginCPlugin = PluginC();
-    MockPluginCPlatform fakePlatform = MockPluginCPlatform();
-    PluginCPlatform.instance = fakePlatform;
+    Plugin_c plugin_cPlugin = Plugin_c();
+    MockPlugin_cPlatform fakePlatform = MockPlugin_cPlatform();
+    Plugin_cPlatform.instance = fakePlatform;
 
-    expect(await pluginCPlugin.getPlatformVersion(), '42');
+    expect(await plugin_cPlugin.getPlatformVersion(), '42');
   });
 }

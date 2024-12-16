@@ -1,17 +1,17 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:plugin_b/plugin_b_platform_interface.dart';
 
-/// An implementation of [PluginBPlatform] that uses method channels.
-class MethodChannelPluginB extends PluginBPlatform {
+import 'plugin_b_platform_interface.dart';
+
+/// An implementation of [Plugin_bPlatform] that uses method channels.
+class MethodChannelPlugin_b extends Plugin_bPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('pluginB');
+  final methodChannel = const MethodChannel('plugin_b');
 
   @override
   Future<String?> getPlatformVersion() async {
-    final version =
-        await methodChannel.invokeMethod<String>('getPlatformVersion');
+    final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
     return version;
   }
 }

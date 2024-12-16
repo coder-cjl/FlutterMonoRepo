@@ -1,7 +1,8 @@
+
 import 'plugin_a_platform_interface.dart';
 
-class PluginA {
+class Plugin_a {
   Future<String?> getPlatformVersion() {
-    return PluginAPlatform.instance.getPlatformVersion();
+    return Plugin_aPlatform.instance.getPlatformVersion();
   }
 }

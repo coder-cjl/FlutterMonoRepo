@@ -1,23 +1,24 @@
-import 'package:plugin_b/plugin_b_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-abstract class PluginBPlatform extends PlatformInterface {
-  /// Constructs a PluginBPlatform.
-  PluginBPlatform() : super(token: _token);
+import 'plugin_b_method_channel.dart';
+
+abstract class Plugin_bPlatform extends PlatformInterface {
+  /// Constructs a Plugin_bPlatform.
+  Plugin_bPlatform() : super(token: _token);
 
   static final Object _token = Object();
 
-  static PluginBPlatform _instance = MethodChannelPluginB();
+  static Plugin_bPlatform _instance = MethodChannelPlugin_b();
 
-  /// The default instance of [PluginBPlatform] to use.
+  /// The default instance of [Plugin_bPlatform] to use.
   ///
-  /// Defaults to [MethodChannelPluginB].
-  static PluginBPlatform get instance => _instance;
+  /// Defaults to [MethodChannelPlugin_b].
+  static Plugin_bPlatform get instance => _instance;
 
   /// Platform-specific implementations should set this with their own
-  /// platform-specific class that extends [PluginBPlatform] when
+  /// platform-specific class that extends [Plugin_bPlatform] when
   /// they register themselves.
-  static set instance(PluginBPlatform instance) {
+  static set instance(Plugin_bPlatform instance) {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
   }

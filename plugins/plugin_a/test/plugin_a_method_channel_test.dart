@@ -5,12 +5,11 @@ import 'package:plugin_a/plugin_a_method_channel.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  MethodChannelPluginA platform = MethodChannelPluginA();
-  const MethodChannel channel = MethodChannel('pluginA');
+  MethodChannelPlugin_a platform = MethodChannelPlugin_a();
+  const MethodChannel channel = MethodChannel('plugin_a');
 
   setUp(() {
-    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
-        .setMockMethodCallHandler(
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(
       channel,
       (MethodCall methodCall) async {
         return '42';
@@ -19,8 +18,7 @@ void main() {
   });
 
   tearDown(() {
-    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
-        .setMockMethodCallHandler(channel, null);
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(channel, null);
   });
 
   test('getPlatformVersion', () async {

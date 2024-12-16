@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
-  final _pluginBPlugin = PluginB();
+  final _plugin_bPlugin = Plugin_b();
 
   @override
   void initState() {
@@ -31,8 +31,8 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      platformVersion = await _pluginBPlugin.getPlatformVersion() ??
-          'Unknown platform version';
+      platformVersion =
+          await _plugin_bPlugin.getPlatformVersion() ?? 'Unknown platform version';
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
