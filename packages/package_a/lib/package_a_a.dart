@@ -84,4 +84,10 @@ class LZPerson7 {
       print('Hello, my name is $name, I am $age years old.');
     }
   }
+
+  void sayHello3() {
+    if (kDebugMode) {
+      print('Hello, my name is $name, I am $age years old.');
+    }
+  }
 }

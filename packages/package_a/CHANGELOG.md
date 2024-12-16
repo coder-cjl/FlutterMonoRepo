@@ -1,3 +1,6 @@
+## 0.0.7+1
+* add function
+
 ## 0.0.7
 * Person7
 
