@@ -4,6 +4,7 @@ repository: https://github.com/coder-cjl/FlutterMonoRepo.git
 packages:
   - packages/*
   - apps/*
+  - plugins/*
 
 
 scripts:

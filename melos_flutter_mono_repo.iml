@@ -7,6 +7,24 @@
       <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_a/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_a/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_a/build" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_a/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_a/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_a/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_b/build" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_b/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_b/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_b/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_c/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_c/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_c/build" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_c/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_c/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/plugin_c/example/build" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
